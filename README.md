@@ -1,4 +1,4 @@
-"use strict";
+```"use strict";
 
 const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
@@ -74,4 +74,4 @@ function limparListaOnClick() {
 btnCalcular.addEventListener("click", calcularMediaOnClick);
 btnSalvar.addEventListener("click", salvarMediaOnClick);
 btnMostrar.addEventListener("click", mostraListaOnClick);
-btnLimpar.addEventListener("click", limparListaOnClick);
+btnLimpar.addEventListener("click", limparListaOnClick);```
