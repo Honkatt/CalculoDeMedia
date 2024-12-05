@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/bf9ed4b9-5081-47f1-93f3-4e80e7426f70)
+
 ```"use strict";
 
 const p1 = document.getElementById("p1");
@@ -74,4 +76,4 @@ function limparListaOnClick() {
 btnCalcular.addEventListener("click", calcularMediaOnClick);
 btnSalvar.addEventListener("click", salvarMediaOnClick);
 btnMostrar.addEventListener("click", mostraListaOnClick);
-btnLimpar.addEventListener("click", limparListaOnClick);```
+btnLimpar.addEventListener("click", limparListaOnClick);
