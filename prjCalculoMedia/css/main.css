@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, input, select, button {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+}
+
+h1 {
+	font-size: 35px;
+	width: fit-content;
+	color: dodgerblue;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+label {
+	font-weight: bold;
+}
+
+#resultado {
+	font-size: 30px;
+	color: navy;
+}
+
+input {
+	display: block;
+	margin-bottom: 25px;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 120px;
+}
+
+button	{
+	padding: 15px;
+	margin-bottom: 25px;
+	background-color: dodgerblue;
+	font-weight: bold;
+	border-radius: 10px;
+	color: white;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+
+button:active {
+	background-color: white;
+	color: black;
+}
+
+strong {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin: 0;
+	-webkit-appearance: none;
+}
+
+input[type=number] {
+    appearance:textfield;
+}
+
+p#saida {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
